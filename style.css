@@ -1,0 +1,80 @@
+body {
+  background-color: #0d1b2c;
+  font-family: "Hanken Grotesk", sans-serif;
+}
+.card {
+  height: 450px;
+  border-radius: 15px;
+  width: 250px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 15px;
+  overflow: hidden;
+  box-shadow: -10px 8px 15px hsl(215, 32%, 27%),
+    10px 8px 15px hsl(216, 31%, 21%);
+  background-color: #15263e;
+  height: max-content;
+}
+#mainImage {
+  height: 57%;
+  width: 250px;
+  border-radius: 15px;
+}
+#mainImage:hover {
+  color: #f0f8f8;
+  cursor: pointer;
+}
+h3 {
+  color: hsl(0, 0%, 100%);
+  font-weight: 300;
+}
+#pop {
+  display: inline-flex;
+  height: 20px;
+  width: 16px;
+  margin-top: 13px;
+}
+#clock {
+  display: inline;
+  height: 20px;
+  width: 16px;
+  margin-top: 13px;
+  margin-left: 60px;
+}
+p {
+  color: #374c6b;
+}
+.display {
+  display: flex;
+  flex-wrap: nowrap;
+}
+#left {
+  float: left;
+  width: 50%;
+  color: #28bac4;
+  margin-left: 5px;
+}
+#right {
+  width: 50%;
+  float: right;
+  text-align: end;
+}
+.creator {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  float: left;
+}
+#logo {
+  height: 25px;
+  width: 25px;
+  overflow: hidden;
+}
+.creator-text {
+  text-align: justify;
+}
+.creator-name {
+  color: white;
+}
